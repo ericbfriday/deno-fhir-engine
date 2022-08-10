@@ -1,0 +1,7 @@
+{
+  "tasks": {
+    "start": "deno run -A --allow-net --watch=static/,routes/ dev.ts",
+    "dev": "deno run -A --allow-net --inspect dev.ts"
+  },
+  "importMap": "./import_map.json"
+}

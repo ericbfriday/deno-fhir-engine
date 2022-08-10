@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "type": "chrome",
+      "name": "http://localhost:8000",
+      "request": "launch",
+      "url": "http://localhost:8000"
+    },
+    {
+      "name": "Deno",
+      "type": "node",
+      "request": "attach",
+      "cwd": "${workspaceFolder}",
+      // "runtimeExecutable": "deno",
+      // "runtimeArgs": [
+      //   "run",
+      //   "--inspect",
+      //   "-A",
+      //   "--allow-net",
+      //   "--watch=static/,routes/",
+      //   "dev.ts"
+      // ],
+      "outputCapture": "std"
+    }
+  ]
+}
